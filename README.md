@@ -1,10 +1,11 @@
 ContactList
 ===========
 
-## ContactList.h
+### ContactList.h
 	- ArrayList<ContactInfo>* contacts
 	- HashTable<ContactInfo*> contactsTable
 	- int blockInfo[26][2]
+
 	+ ContactList(int size)
 	+ bool addContact(string name, string phoneNum, string email)
 	+ bool updateContact()
